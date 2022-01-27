@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+h2{
+    padding: 10px 0;
+    color:rgb(58, 55, 55);
+}
+.wrapper{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.admin_form, .container_admin{
+    background-color: rgb(224, 221, 221);
+    border-radius: 10px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+    padding: 15px;
+}
+input{
+    font-family: inherit; 
+    font-size: inherit; 
+    line-height: inherit; 
+} 
+.field {
+    display: block;
+    width: 60%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+ }
+.admin_form input{
+    margin: 10px;
+}
+.btn {
+	box-sizing: border-box;
+	padding: 0 15px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 4px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #fff;
+	background-color: #8191a5;
+	position: relative;
+	overflow:hidden;
+	vertical-align: top;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation; 
+	z-index: 1;
+}
+.btn:disabled{
+    background-color: gray;
+}
+
+.container_admin{
+    background-color: rgb(197, 194, 194);
+    display: none;
+}
+.user_block{
+    display: flex;
+    flex-direction: column;
+   
+    margin: 10px 0;
+}
+.user_card{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(112, 108, 108);
+    list-style: none;
+    border-radius: 10px;
+    margin: 5px;
+    width: 350px;
+    padding: 10px;
+}
+.user_card_name{
+ color: white;
+}
+.user_card_web a{
+    text-decoration: none;
+    cursor: pointer;
+    color:rgb(58, 54, 54);
+}
+
+.html_chat{
+    width: 400px;
+    height: 500px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    border: 1px solid rgb(248, 215, 165);
+}
